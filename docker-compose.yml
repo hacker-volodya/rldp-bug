@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    build: .
+    network_mode: host
+    environment:
+      - RUST_LOG=trace
